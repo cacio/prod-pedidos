@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prodasiq Pedidos</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">    
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/jquery.js"></script>
+	<!--<script src="js/jquery-1.11.1.min.js"></script>-->
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/login.js"></script>
+    <script>
+    	$(document).on("pagecreate", function () {
+		  $(".ui-input-text").removeClass("ui-shadow-inset");
+			
+		});	
+		document.addEventListener("backbutton", onBackKeyDown, false);
+		function onBackKeyDown(e) {
+		  e.preventDefault();
+		  navigator.app.exitApp();
+		}		
+    </script>
+    </head>
+<body>
+
+  <div data-role="page">
+	  <div class="lg_topo">
+		  <a href="#" onClick="fechar();" class="lg_vl_topo"></a>
+		  <div class="lg_titulo">AREA DE ACESSO</div>
+	  </div>	
+        <div role="main" class="ui-content" style="/*margin-top: 68px;*/">
+         <div align="center"><h3><img src="img/logo.png" width="300" /></h3></div>
+         <form action="http://localhost:8080/PROJETOS/webservice_pedido/php/login-exec.php" enctype="multipart/form-data" id="login" method="post">   
+            <!--<label for="txt-email">E-Mail</label>-->
+            <input type="text" name="ema" id="txt-email" value="" placeholder="E-mail">
+            <!--<label for="txt-password">Senha</label>-->
+            <input type="password" name="sen" id="txt-password"  value="" placeholder="Senha">
+            <input type="hidden" name="act" value="login" />
+            <fieldset data-role="controlgroup">
+                <input type="checkbox" name="chck-rememberme" id="chck-rememberme" checked>
+                <label for="chck-rememberme">Lembrar - me</label>
+            </fieldset>
+           <!-- <a href="#"  id="btn-submit" class="ui-btn ui-btn-b ui-corner-all mc-top-margin-1-5">Logar</a>-->
+		   <div align="center">
+             <button type="submit" id="btn-submit" class="ui-btn ui-corner-all mc-top-margin-1-5 btnblue" style="background: #4768f3; border-color: #4768f3; color: #FFFFFF; text-shadow: none;">LOGAR</button>
+			 <a href="tpl/registraruser.html" data-role="none" class="btn-crs-inline">Registrar Usuario ?</a>
+		   </div>
+         </form>   
+        </div><!-- /content -->
+    </div><!-- /page -->
+    
+</body>
+</html>

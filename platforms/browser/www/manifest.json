@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Prodasiq Pedidos",
+  "short_name": "Prodasiq Pedidos",
+  "version": "com.phonegap.helloworld",
+  "description": "Prodasiq geração de pedidos.",
+  "author": "Cacio Renato Da Silva",
+  "icons": [],
+  "start_url": "index.html"
+}

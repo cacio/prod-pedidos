@@ -1,0 +1,181 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.view-cli{
+	margin:0px;
+	padding:10px 0px 10px 0px;
+	width:100%;
+	height:30%;
+    background:#B5B5B5;
+	opacity:0.2;
+}
+
+.view-profile{
+
+	margin:0 auto;
+	width:120px;
+	height:120px;
+	border-radius:100px;
+	background:url(../img/company-icon.png) no-repeat center;
+	background-color:#8B8A8A;
+}
+
+.detalhepedfeito{
+	padding: 5px;
+	background-image: linear-gradient(bottom, rgb(11,23,255) 0%, rgb(11,23,255) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(11,23,255) 0%, rgb(11,23,255) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(11,23,255) 0%, rgb(11,23,255) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(11,23,255) 0%, rgb(11,23,255) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(11,23,255) 0%, rgb(11,23,255) 100%);
+	background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(11,123,255)), color-stop(0.5, #0b7bff) );
+	margin: -10px 0px 0px 0px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 31px rgba(0,0,0,0.24);
+	border-radius: 0px 0px 10px 10px;
+	text-align: center;
+}
+.detalhepedfeito-valtotal{
+	display: inline-block;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.5;
+	padding: 15px;
+}
+.valtotal{
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+}
+.detalhepedfeito-valtotal p {
+	display: inline-block;
+	color: #bfb2b2;
+    font-weight: bold;
+}
+.txtvltotaldia{
+	color: #ffffff;
+}
+.counttotal{
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+}
+.infodt{
+	margin: 8px;
+}
+
+.detalheheader{
+	padding: 5px;
+	background-image: linear-gradient(bottom, rgb(11,23,255) 0%, rgb(11,23,255) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(11,23,255) 0%, rgb(11,23,255) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(11,23,255) 0%, rgb(11,23,255) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(11,23,255) 0%, rgb(11,23,255) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(11,23,255) 0%, rgb(11,23,255) 100%);
+	background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(11,123,255)), color-stop(0.5, #0b7bff) );
+	margin: -10px 0px 0px 0px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 31px rgba(0,0,0,0.24);
+	border-radius: 0px 0px 10px 10px;
+	/*text-align: center;*/
+}
+
+.detalheheader h1{
+	color: #ffffff !important;
+}
+.detalheheader h5{
+	color: #ffffff !important;
+}
+
+.btn-footer-1{
+	width: 50% !important;
+	border-radius: 0px !important;
+	height: 62px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	border: 0px !important;
+	background: #0a7bff !important;
+	border-radius: 0px 0px 0px 6px !important;
+	color: #000000 !important;  
+    font-family: -webkit-body;
+    font-style: normal;
+    line-height: 3;
+    font-size: 20px !important;
+	text-shadow: none !important;
+}
+.btn-footer-1-1{
+	width: 100% !important;
+	border-radius: 0px !important;
+	height: 62px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	border: 0px !important;
+	background: #0a7bff !important;
+	border-radius: 0px 0px 0px 6px !important;
+	color: #000000 !important;  
+    font-family: -webkit-body;
+    font-style: normal;
+    line-height: 3;
+    font-size: 20px !important;
+	text-shadow: none !important;
+}
+.btn-footer-2{
+	width: 50% !important;
+    border-radius: 0px !important;
+    height: 62px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    border: 0px !important;
+    background: black !important;
+    border-radius: 0px 0px 6px 0px !important;
+    color: #ffffff !important;  
+    font-family: -webkit-body;
+    font-style: normal;
+    line-height: 3;
+    font-size: 20px !important;
+}
+
+.shedowbtn{
+	-webkit-box-shadow: 0px 0px 31px 5px rgba(209,209,209,1);
+	-moz-box-shadow: 0px 0px 31px 5px rgba(209,209,209,1);
+	box-shadow: 0px 0px 31px 5px rgba(209,209,209,1);
+}
+
+.inf-valores{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	display:flex;
+	text-align:center;
+	border-top:1px #000 solid;
+}
+.inf-valores .inf-valores-qtd{	
+	width:50%;
+	border-right:1px #000 solid;	
+}
+.inf-valores .inf-valores-qtd label{
+	font-size:20px;
+	font-weight:bold;
+}
+.inf-valores .inf-valores-qtd div{
+	font-size:22px;
+	font-weight:bold;
+}
+.inf-valores .inf-valores-qtd label,div{
+	margin:0px auto;
+	display:block;
+}
+.inf-valores .inf-valores-vl{
+	width:40%;
+	
+}
+.inf-valores .inf-valores-vl label{
+	font-size:20px;
+	font-weight:bold;
+}
+.inf-valores .inf-valores-vl div{
+	font-size:22px;
+	font-weight:bold;
+}
+.inf-valores .inf-valores-vl label,div{
+	margin:0px auto;
+	display:block;
+}
